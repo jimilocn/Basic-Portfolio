@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    width: 960px;
+    width: 1024px;
     position: fixed;
     background-image: url("../images/grunge.png");
     box-sizing: border-box;
@@ -21,6 +21,15 @@ header {
     
 }
 
+.links {
+
+    Margin: auto;
+    background:  #f2fcfb;
+    color:  #4aaaa5;
+    
+
+}
+
 a {
 
     margin-right: 0;
@@ -38,6 +47,7 @@ a {
 #h2 {
     padding: 20px;
     margin-top: 20px;
+    color:#4aaaa5;
 
 }
 
@@ -46,9 +56,9 @@ a {
     padding: 20 px;
     Border: 40px;
     background: white;
-    Margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 960px;
-    
    
 }
 
@@ -59,13 +69,15 @@ a {
 
 footer {
     Position: fixed;
-    background: rgb(233, 228, 228);
+    background: #777777;
+    color:#4aaaa5;
     margin-left: auto;
     margin-right: auto;
-    bottom: 0;
-    padding: 20px;
-    
-   
-
+    bottom: 0 px;
+    padding: 5px;
+    width: 1024px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 8px solid #4aaaa5;
 
 }
