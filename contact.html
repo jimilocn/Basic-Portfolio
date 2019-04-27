@@ -8,54 +8,79 @@
     <title>Jimi Loc Nguyen</title>
 </head>
 <body>
-    
-<div id="top">
 
-    <!-- Site header -->
-    <header>
-        <!-- h1 name and links to jump around-->
-        <h1>Jimi Loc Nguyen</h1>
-    
-    </header>  
-    
-   <!-- links to different pages on the website -->
- 
-    <div class="nav">
- 
-            <a class=links href="./contact.html">| Contact</a> 
-            <a class=links href="./portfolio.html">Portfolio</a>
-            <a class=links href="./index.html">About |</a>
-    </div>       
-</div>
-<div class="container">
-    <!-- Section about myself -->
-     <section class="bio">
-        <!-- header 2 with line break -->
-        <h2 id="h2">
-            Contact
-        </h2>
-        <hr>
+<!-- helps to enclose the header and nav links within 960px -->
+    <div id="top">
+
+        <!-- Site header with name -->
+        <header>
+
+            <h1>Jimi Loc Nguyen</h1>
         
-        <form action="action_page.php">
+        </header>  
+        
+    <!-- links to different pages on the website -->
+    
+        <div class="nav">
+    
+                <a class=links href="./contact.html">| Contact</a> 
+                <a class=links href="./portfolio.html">Portfolio</a>
+                <a class=links href="./index.html">About |</a>
+        </div>       
+    </div>
 
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name..">
-      
-          <label for="email">E-Mail</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
-      
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-    </section>
-</div>
-<footer>
-    <p id="love"> &#10084;&#9774;&#10084;&#9774;&#10084;&#9774;&#10084;&#9774;&#10084;&#9774;&#10084;</p>
-</footer>
+<!-- large grey image around bio -->
+    <div class="container">
+        <!-- Section about myself with white background -->
+        <section class="bio">
+            <!-- header for each middle section -->
+            <h2 id="h2">
+                Portfolio
+            </h2>
+            <!-- Horizontal line break -->
+            <hr>
+            
+            <!-- Contact form -->
+            <form action="action_page.php">
+                <!-- Name label -->
+                <label for="name">
+                Name
+                </label>
 
+                <!-- input box -->
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <!-- Email label -->
+                <label for="email">
+                E-Mail
+                </label>
+
+                <!-- input box -->
+                <input type="text" id="email" name="email" placeholder="Your email..">
+        
+                <!-- message label -->
+                <label for="message">
+                Message
+                </label>
+                <!-- Text input box -->
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+            </form>
+        </section>
+    </div>
+
+<!-- cute footer that is fixed -->
+    <footer>
+        <p id="love"> 
+            &#10084;&#9774;&#10084;
+            &#9774;&#10084;&#9774;
+            &#10084;&#9774;&#10084;
+            &#9774;&#10084;
+
+        </p>
+    </footer>
 
 </body>
 </html>
